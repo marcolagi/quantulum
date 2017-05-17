@@ -43,7 +43,7 @@ def get_dimension_permutations(entities, dimensions):
         else:
             new_dimensions[item['base']] += item['power']
 
-    final = [[{'base': i[0], 'power': i[1]} for i in new_dimensions.items()]]
+    final = [[{'base': i[0], 'power': i[1]} for i in list(new_dimensions.items())]]
     final.append(dimensions)
     final = [sorted(i, key=lambda x: x['base']) for i in final]
 
@@ -59,7 +59,7 @@ def get_dimension_permutations(entities, dimensions):
 def load_entities():
     """Load entities from JSON file."""
     path = os.path.join(TOPDIR, 'entities.json')
-    entities = json.load(open(path))
+    entities = json.load(open(path, encoding="utf-8"))
     names = [i['name'] for i in entities]
 
     try:
@@ -116,7 +116,7 @@ def load_units():
     lowers = defaultdict(list)
     symbols = defaultdict(list)
     surfaces = defaultdict(list)
-    for unit in json.load(open(os.path.join(TOPDIR, 'units.json'))):
+    for unit in json.load(open(os.path.join(TOPDIR, 'units.json'), encoding="utf-8")):
 
         try:
             assert unit['name'] not in names

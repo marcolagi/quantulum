@@ -31,7 +31,7 @@ def get_numwords():
     for idx, word in enumerate(SCALES):
         numwords[word] = (10 ** (idx * 3 or 2), 0)
 
-    all_numbers = ur'|'.join(ur'\b%s\b' % i for i in numwords.keys() if i)
+    all_numbers = r'|'.join(r'\b%s\b' % i for i in list(numwords.keys()) if i)
 
     return all_numbers, numwords
 
@@ -40,25 +40,25 @@ def get_numwords():
 
 SUFFIXES = {'K': 1e3, 'M': 1e6, 'B': 1e9, 'T': 1e12}
 
-UNI_SUPER = {u'¹': '1', u'²': '2', u'³': '3', u'⁴': '4', u'⁵': '5',
-             u'⁶': '6', u'⁷': '7', u'⁸': '8', u'⁹': '9', u'⁰': '0'}
+UNI_SUPER = {'¹': '1', '²': '2', '³': '3', '⁴': '4', '⁵': '5',
+             '⁶': '6', '⁷': '7', '⁸': '8', '⁹': '9', '⁰': '0'}
 
-UNI_FRAC = {u'¼': '1/4', u'½': '1/2', u'¾': '3/4', u'⅐': '1/7', u'⅑': '1/9',
-            u'⅒': '1/10', u'⅓': '1/3', u'⅔': '2/3', u'⅕': '1/5', u'⅖': '2/5',
-            u'⅗': '3/5', u'⅘': '4/5', u'⅙': '1/6', u'⅚': '5/6', u'⅛': '1/8',
-            u'⅜': '3/8', u'⅝': '5/8', u'⅞': '7/8'}
+UNI_FRAC = {'¼': '1/4', '½': '1/2', '¾': '3/4', '⅐': '1/7', '⅑': '1/9',
+            '⅒': '1/10', '⅓': '1/3', '⅔': '2/3', '⅕': '1/5', '⅖': '2/5',
+            '⅗': '3/5', '⅘': '4/5', '⅙': '1/6', '⅚': '5/6', '⅛': '1/8',
+            '⅜': '3/8', '⅝': '5/8', '⅞': '7/8'}
 
-OPERATORS = {u'/': u' per ', u' per ': u' per ', u' a ': ' per ',
-             u'*': u' ', u' ': u' ', u'·': u' ', u'x': u' '}
+OPERATORS = {'/': ' per ', ' per ': ' per ', ' a ': ' per ',
+             '*': ' ', ' ': ' ', '·': ' ', 'x': ' '}
 
 ALL_NUM, NUMWORDS = get_numwords()
-FRACTIONS = re.escape(''.join(UNI_FRAC.keys()))
-SUPERSCRIPTS = re.escape(''.join(UNI_SUPER.keys()))
+FRACTIONS = re.escape(''.join(list(UNI_FRAC.keys())))
+SUPERSCRIPTS = re.escape(''.join(list(UNI_SUPER.keys())))
 
-MULTIPLIERS = r'|'.join(ur'%s' % re.escape(i) for i in OPERATORS if
+MULTIPLIERS = r'|'.join(r'%s' % re.escape(i) for i in OPERATORS if
                         OPERATORS[i] == ' ')
 
-NUM_PATTERN = ur'''            # Pattern for extracting a digit-based number
+NUM_PATTERN = r'''            # Pattern for extracting a digit-based number
 
     (?:                        # required number
         [+-]?                  #   optional sign
@@ -76,7 +76,7 @@ NUM_PATTERN = ur'''            # Pattern for extracting a digit-based number
 
 ''' % (MULTIPLIERS, SUPERSCRIPTS, FRACTIONS)
 
-RAN_PATTERN = ur'''                        # Pattern for a range of numbers
+RAN_PATTERN = r'''                        # Pattern for a range of numbers
 
     (?:                                    # First number
         (?<![a-zA-Z0-9+.-])                # lookbehind, avoid "Area51"
@@ -88,7 +88,7 @@ RAN_PATTERN = ur'''                        # Pattern for a range of numbers
 
 ''' % (NUM_PATTERN, NUM_PATTERN)
 
-TXT_PATTERN = ur'''            # Pattern for extracting mixed digit-spelled num
+TXT_PATTERN = r'''            # Pattern for extracting mixed digit-spelled num
     (?:
         (?<![a-zA-Z0-9+.-])    # lookbehind, avoid "Area51"
         %s
@@ -104,18 +104,18 @@ REG_TXT = re.compile(TXT_PATTERN, re.VERBOSE | re.IGNORECASE)
 ###############################################################################
 def get_units_regex():
     """Build a compiled regex object."""
-    op_keys = sorted(OPERATORS.keys(), key=len, reverse=True)
-    unit_keys = sorted(l.UNITS.keys(), key=len, reverse=True)
-    symbol_keys = sorted(l.SYMBOLS.keys(), key=len, reverse=True)
+    op_keys = sorted(list(OPERATORS.keys()), key=len, reverse=True)
+    unit_keys = sorted(list(l.UNITS.keys()), key=len, reverse=True)
+    symbol_keys = sorted(list(l.SYMBOLS.keys()), key=len, reverse=True)
 
-    exponent = ur'(?:(?:\^?\-?[0-9%s]*)(?:\ cubed|\ squared)?)(?![a-zA-Z])' % \
+    exponent = r'(?:(?:\^?\-?[0-9%s]*)(?:\ cubed|\ squared)?)(?![a-zA-Z])' % \
                SUPERSCRIPTS
 
     all_ops = '|'.join([r'%s' % re.escape(i) for i in op_keys])
-    all_units = '|'.join([ur'%s' % re.escape(i) for i in unit_keys])
-    all_symbols = '|'.join([ur'%s' % re.escape(i) for i in symbol_keys])
+    all_units = '|'.join([r'%s' % re.escape(i) for i in unit_keys])
+    all_symbols = '|'.join([r'%s' % re.escape(i) for i in symbol_keys])
 
-    pattern = ur'''
+    pattern = r'''
 
         (?P<prefix>(?:%s)(?![a-zA-Z]))?         # Currencies, mainly
         (?P<value>%s)-?                           # Number
