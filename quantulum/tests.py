@@ -54,19 +54,19 @@ def wiki_test(page='CERN'):
     parsed = p.parse(content)
     parts = int(round(len(content) * 1.0 / 1000))
 
-    print
+    print()
     end_char = 0
     for num, chunk in enumerate(range(parts)):
         _ = os.system('clear')
-        print
+        print()
         quants = [j for j in parsed if chunk * 1000 < j.span[0] < (chunk + 1) *
                   1000]
         beg_char = max(chunk * 1000, end_char)
         text, end_char = embed_text(quants, beg_char, chunk, content)
-        print COLOR2 % text
-        print
+        print(COLOR2 % text)
+        print()
         try:
-            _ = raw_input('--------- End part %d of %d\n' % (num + 1, parts))
+            _ = input('--------- End part %d of %d\n' % (num + 1, parts))
         except (KeyboardInterrupt, EOFError):
             return
 
@@ -80,8 +80,8 @@ def get_quantity(test, item):
         try:
             entity = item['entity']
         except KeyError:
-            print ('Could not find %s, provide "dimensions" and'
-                   ' "entity"' % item['unit'])
+            print(('Could not find %s, provide "dimensions" and'
+                   ' "entity"' % item['unit']))
             return
         if entity == 'unknown':
             dimensions = [{'base': l.NAMES[i['base']].entity.name,
@@ -91,8 +91,8 @@ def get_quantity(test, item):
         elif entity in l.ENTITIES:
             entity = l.ENTITIES[entity]
         else:
-            print ('Could not find %s, provide "dimensions" and'
-                   ' "entity"' % item['unit'])
+            print(('Could not find %s, provide "dimensions" and'
+                   ' "entity"' % item['unit']))
             return
         unit = c.Unit(name=item['unit'],
                       dimensions=item['dimensions'],
@@ -101,7 +101,7 @@ def get_quantity(test, item):
         span = re.finditer(re.escape(item['surface']),
                            test['req']).next().span()
     except StopIteration:
-        print 'Surface mismatch for "%s"' % test['req']
+        print('Surface mismatch for "%s"' % test['req'])
         return
 
     uncert = None
