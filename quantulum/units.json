@@ -1,6 +1,7 @@
 [
     {
         "name": "dimensionless",
+        "SI": "",
         "surfaces": ["dimensionless"],
         "entity": "dimensionless",
         "URI": "https://en.wikipedia.org/wiki/Dimensionless_quantity",
@@ -9,6 +10,7 @@
     },
     {
         "name": "percentage",
+        "SI": "percent",
         "surfaces": ["percentage", "percent"],
         "entity": "dimensionless",
         "URI": "https://en.wikipedia.org/wiki/Percentage",
@@ -17,6 +19,7 @@
     },
     {
         "name": "per mille",
+        "SI": "pm",
         "surfaces": ["per mille", "permill", "permil", "permille", "per mil", "per mill"],
         "entity": "dimensionless",
         "URI": "https://en.wikipedia.org/wiki/Per_mille",
@@ -25,6 +28,7 @@
     },
     {
         "name": "parts-per-million",
+        "SI": "ppm",
         "surfaces": ["parts-per-million", "parts per million"],
         "entity": "dimensionless",
         "URI": "https://en.wikipedia.org/wiki/Parts-per_notation",
@@ -33,6 +37,7 @@
     },
     {
         "name": "parts-per-billion",
+        "SI": "ppb",
         "surfaces": ["parts-per-billion", "parts per billion"],
         "entity": "dimensionless",
         "URI": "https://en.wikipedia.org/wiki/Parts-per_notation",
@@ -41,6 +46,7 @@
     },
     {
         "name": "parts-per-trillion",
+        "SI": "ppt",
         "surfaces": ["parts-per-trillion", "parts per trillion"],
         "entity": "dimensionless",
         "URI": "https://en.wikipedia.org/wiki/Parts-per_notation",
@@ -49,6 +55,7 @@
     },
     {
         "name": "basis point",
+        "SI": "bp",
         "surfaces": ["basis point", "bip", "beep", "permyriad", "per myriad", "per ten thousand"],
         "entity": "dimensionless",
         "URI": "https://en.wikipedia.org/wiki/Basis_point",
@@ -57,6 +64,7 @@
     },
     {
         "name": "count",
+        "SI": "count",
         "surfaces": ["instance", "time", "count"],
         "entity": "dimensionless",
         "URI": "https://en.wikipedia.org/wiki/Count_data",
@@ -65,6 +73,7 @@
     },
     {
         "name": "turn",
+        "SI": "turn",
         "surfaces": ["turn", "revolution", "cycle", "circle"],
         "entity": "dimensionless",
         "URI": "https://en.wikipedia.org/wiki/Turn_(geometry)",
@@ -73,6 +82,7 @@
     },
     {
         "name": "barn",
+        "SI": "barn",
         "surfaces": ["barn"],
         "entity": "length",
         "URI": "https://en.wikipedia.org/wiki/Barn_(unit)",
@@ -81,6 +91,7 @@
     },
     {
         "name": "metre",
+        "SI": "m",
         "surfaces": ["metre", "meter"],
         "entity": "length",
         "URI": "https://en.wikipedia.org/wiki/Metre",
@@ -89,6 +100,7 @@
     },
     {
         "name": "exametre",
+        "SI": "Em",
         "surfaces": ["exametre", "exameter"],
         "entity": "length",
         "URI": "https://en.wikipedia.org/wiki/1_exametre",
@@ -97,6 +109,7 @@
     },
     {
         "name": "petametre",
+        "SI": "Pm",
         "surfaces": ["petametre", "petameter"],
         "entity": "length",
         "URI": "https://en.wikipedia.org/wiki/1_petametre",
@@ -105,6 +118,7 @@
     },
     {
         "name": "terametre",
+        "SI": "Tm",
         "surfaces": ["terametre", "terameter"],
         "entity": "length",
         "URI": "https://en.wikipedia.org/wiki/1_terametre",
@@ -113,6 +127,7 @@
     },
     {
         "name": "gigametre",
+        "SI": "Gm",
         "surfaces": ["gigametre", "gigameter"],
         "entity": "length",
         "URI": "https://en.wikipedia.org/wiki/Gigametre",
@@ -121,6 +136,7 @@
     },
     {
         "name": "megametre",
+        "SI": "Mm",
         "surfaces": ["megametre", "megameter"],
         "entity": "length",
         "URI": "https://en.wikipedia.org/wiki/Megametre",
@@ -129,6 +145,7 @@
     },
     {
         "name": "kilometre",
+        "SI": "km",
         "surfaces": ["kilometre", "kilometer"],
         "entity": "length",
         "URI": "https://en.wikipedia.org/wiki/Kilometre",
@@ -137,6 +154,7 @@
     },
     {
         "name": "hectometre",
+        "SI": "hm",
         "surfaces": ["hectometre", "hectometer"],
         "entity": "length",
         "URI": "https://en.wikipedia.org/wiki/Hectometre",
@@ -145,6 +163,7 @@
     },
     {
         "name": "decametre",
+        "SI": "dam",
         "surfaces": ["decametre", "decameter", "dekametre", "dekameter"],
         "entity": "length",
         "URI": "https://en.wikipedia.org/wiki/Decametre",
@@ -153,6 +172,7 @@
     },
     {
         "name": "decimetre",
+        "SI": "dm",
         "surfaces": ["decimetre", "decimeter"],
         "entity": "length",
         "URI": "https://en.wikipedia.org/wiki/Decimetre",
@@ -161,6 +181,7 @@
     },
     {
         "name": "centimetre",
+        "SI": "cm",
         "surfaces": ["centimetre", "centimeter"],
         "entity": "length",
         "URI": "https://en.wikipedia.org/wiki/Centimetre",
@@ -169,6 +190,7 @@
     },
     {
         "name": "millimetre",
+        "SI": "mm",
         "surfaces": ["millimetre", "millimeter"],
         "entity": "length",
         "URI": "https://en.wikipedia.org/wiki/Millimetre",
@@ -177,6 +199,7 @@
     },
     {
         "name": "micrometre",
+        "SI": "µm",
         "surfaces": ["micrometre", "micrometer", "micron"],
         "entity": "length",
         "URI": "https://en.wikipedia.org/wiki/Micrometre",
@@ -185,6 +208,7 @@
     },
     {
         "name": "nanometre",
+        "SI": "nm",
         "surfaces": ["nanometre", "nanometer"],
         "entity": "length",
         "URI": "https://en.wikipedia.org/wiki/Nanometre",
@@ -193,6 +217,7 @@
     },
     {
         "name": "picometre",
+        "SI": "pm",
         "surfaces": ["picometre", "picometer"],
         "entity": "length",
         "URI": "https://en.wikipedia.org/wiki/Picometre",
@@ -201,6 +226,7 @@
     },
     {
         "name": "femtometre",
+        "SI": "fm",
         "surfaces": ["femtometre", "femtometer"],
         "entity": "length",
         "URI": "https://en.wikipedia.org/wiki/Femtometre",
@@ -209,6 +235,7 @@
     },
     {
         "name": "parsec",
+        "SI": "pc",
         "surfaces": ["parsec"],
         "entity": "length",
         "URI": "https://en.wikipedia.org/wiki/Parsec",
@@ -217,6 +244,7 @@
     },
     {
         "name": "light-year",
+        "SI": "ly",
         "surfaces": ["light-year", "light year"],
         "entity": "length",
         "URI": "https://en.wikipedia.org/wiki/Light-year",
@@ -225,6 +253,7 @@
     },
     {
         "name": "astronomical unit",
+        "SI": "au",
         "surfaces": ["astronomical unit"],
         "entity": "length",
         "URI": "https://en.wikipedia.org/wiki/Astronomical_unit",
@@ -233,6 +262,7 @@
     },
     {
         "name": "league",
+        "SI": "lea",
         "surfaces": ["league", "nautical league"],
         "entity": "length",
         "URI": "https://en.wikipedia.org/wiki/League_(unit)",
@@ -241,6 +271,7 @@
     },
     {
         "name": "mile",
+        "SI": "mi",
         "surfaces": ["mile", "statute mile"],
         "entity": "length",
         "URI": "https://en.wikipedia.org/wiki/Mile",
@@ -249,6 +280,7 @@
     },
     {
         "name": "nautical mile",
+        "SI": "M",
         "surfaces": ["nautical mile"],
         "entity": "length",
         "URI": "https://en.wikipedia.org/wiki/Nautical_mile",
@@ -257,6 +289,7 @@
     },
     {
         "name": "ell",
+        "SI": "",
         "surfaces": ["ell"],
         "entity": "length",
         "URI": "https://en.wikipedia.org/wiki/Ell",
@@ -265,6 +298,7 @@
     },
     {
         "name": "furlong",
+        "SI": "",
         "surfaces": ["furlong"],
         "entity": "length",
         "URI": "https://en.wikipedia.org/wiki/Furlong",
@@ -273,6 +307,7 @@
     },
     {
         "name": "fathom",
+        "SI": "",
         "surfaces": ["fathom"],
         "entity": "length",
         "URI": "https://en.wikipedia.org/wiki/Fathom",
@@ -281,6 +316,7 @@
     },
     {
         "name": "yard",
+        "SI": "yd",
         "surfaces": ["yard"],
         "entity": "length",
         "URI": "https://en.wikipedia.org/wiki/Yard",
@@ -289,6 +325,7 @@
     },
     {
         "name": "foot",
+        "SI": "ft",
         "surfaces": ["foot"],
         "entity": "length",
         "URI": "https://en.wikipedia.org/wiki/Foot_(unit)",
@@ -297,6 +334,7 @@
     },
     {
         "name": "cubit",
+        "SI": "",
         "surfaces": ["cubit"],
         "entity": "length",
         "URI": "https://en.wikipedia.org/wiki/Cubit",
@@ -305,6 +343,7 @@
     },
     {
         "name": "span",
+        "SI": "",
         "surfaces": ["span"],
         "entity": "length",
         "URI": "https://en.wikipedia.org/wiki/Span_(unit)",
@@ -313,6 +352,7 @@
     },
     {
         "name": "inch",
+        "SI": "in",
         "surfaces": ["inch"],
         "entity": "length",
         "URI": "https://en.wikipedia.org/wiki/Inch",
@@ -321,6 +361,7 @@
     },
     {
         "name": "ångström",
+        "SI": "Å",
         "surfaces": ["ångström", "ångstrom", "angström", "angstrom"],
         "entity": "length",
         "URI": "https://en.wikipedia.org/wiki/Ångström",
@@ -329,6 +370,7 @@
     },
     {
         "name": "twip",
+        "SI": "",
         "surfaces": ["twip"],
         "entity": "length",
         "URI": "https://en.wikipedia.org/wiki/Twip",
@@ -337,6 +379,7 @@
     },
     {
         "name": "solar mass",
+        "SI": "",
         "surfaces": ["solar mass"],
         "entity": "mass",
         "URI": "https://en.wikipedia.org/wiki/Solar_mass",
@@ -345,6 +388,7 @@
     },
     {
         "name": "earth mass",
+        "SI": "",
         "surfaces": ["earth mass"],
         "entity": "mass",
         "URI": "https://en.wikipedia.org/wiki/Earth_mass",
@@ -353,6 +397,7 @@
     },
     {
         "name": "short ton",
+        "SI": "",
         "surfaces": ["short ton", "ton"],
         "entity": "mass",
         "URI": "https://en.wikipedia.org/wiki/Short_ton",
@@ -361,6 +406,7 @@
     },
     {
         "name": "long ton",
+        "SI": "",
         "surfaces": ["long ton", "imperial ton", "weight ton"],
         "entity": "mass",
         "URI": "https://en.wikipedia.org/wiki/Long_ton",
@@ -369,6 +415,7 @@
     },
     {
         "name": "kilogram",
+        "SI": "kg,
         "surfaces": ["kilogram", "kilogramme", "kilo"],
         "entity": "mass",
         "URI": "https://en.wikipedia.org/wiki/Kilogram",
@@ -377,6 +424,7 @@
     },
     {
         "name": "gram",
+        "SI": "g",
         "surfaces": ["gram", "gramme"],
         "entity": "mass",
         "URI": "https://en.wikipedia.org/wiki/Gram",
@@ -385,6 +433,7 @@
     },
     {
         "name": "milligram",
+        "SI": "mg",
         "surfaces": ["milligram", "milligramme"],
         "entity": "mass",
         "URI": "https://en.wikipedia.org/wiki/Kilogram#SI_multiples",
@@ -393,6 +442,7 @@
     },
     {
         "name": "microgram",
+        "SI": "µg",
         "surfaces": ["microgram", "microgramme"],
         "entity": "mass",
         "URI": "https://en.wikipedia.org/wiki/Microgram",
@@ -401,6 +451,7 @@
     },
     {
         "name": "atomic mass unit",
+        "SI": "u",
         "surfaces": ["atomic mass unit", "unified atomic mass unit", "dalton"],
         "entity": "mass",
         "URI": "https://en.wikipedia.org/wiki/Atomic_mass_unit",
@@ -409,6 +460,7 @@
     },
     {
         "name": "pound-mass",
+        "SI": "lb",
         "surfaces": ["pound", "pound-mass"],
         "entity": "mass",
         "URI": "https://en.wikipedia.org/wiki/Pound_(mass)",
@@ -417,6 +469,7 @@
     },
     {
         "name": "ounce",
+        "SI": "",
         "surfaces": ["ounce"],
         "entity": "mass",
         "URI": "https://en.wikipedia.org/wiki/Ounce",
@@ -425,6 +478,7 @@
     },
     {
         "name": "ton",
+        "SI": "",
         "surfaces": ["ton"],
         "entity": "mass",
         "URI": "https://en.wikipedia.org/wiki/Ton",
@@ -433,6 +487,7 @@
     },
     {
         "name": "tonne",
+        "SI": "t",
         "surfaces": ["tonne", "metric ton"],
         "entity": "mass",
         "URI": "https://en.wikipedia.org/wiki/Tonne",
@@ -441,6 +496,7 @@
     },
     {
         "name": "quintal",
+        "SI": "q",
         "surfaces": ["quintal"],
         "entity": "mass",
         "URI": "https://en.wikipedia.org/wiki/Quintal",
@@ -449,6 +505,7 @@
     },
     {
         "name": "quarter",
+        "SI": "qr",
         "surfaces": ["quarter"],
         "entity": "mass",
         "URI": "https://en.wikipedia.org/wiki/Quarter_(unit)",
@@ -457,6 +514,7 @@
     },
     {
         "name": "carat",
+        "SI": "ct",
         "surfaces": ["carat"],
         "entity": "mass",
         "URI": "https://en.wikipedia.org/wiki/Carat_(mass)",
@@ -465,6 +523,7 @@
     },
     {
         "name": "bushel",
+        "SI": "bsh",
         "surfaces": ["bushel"],
         "entity": "mass",
         "URI": "https://en.wikipedia.org/wiki/Bushel",
@@ -473,6 +532,7 @@
     },
     {
         "name": "dollar",
+        "SI": "$",
         "surfaces": ["dollar"],
         "entity": "currency",
         "URI": "https://en.wikipedia.org/wiki/Dollar",
@@ -481,6 +541,7 @@
     },
     {
         "name": "united states dollar",
+        "SI": "USD",
         "surfaces": ["united states dollar", "us dollar", "american dollar"],
         "entity": "currency",
         "URI": "https://en.wikipedia.org/wiki/United_States_dollar",
@@ -489,6 +550,7 @@
     },
     {
         "name": "euro",
+        "SI": "EUR",
         "surfaces": ["euro"],
         "entity": "currency",
         "URI": "https://en.wikipedia.org/wiki/Euro",
@@ -497,6 +559,7 @@
     },
     {
         "name": "pound sterling",
+        "SI": "GBP",
         "surfaces": ["pound sterling", "pound"],
         "entity": "currency",
         "URI": "https://en.wikipedia.org/wiki/Pound_sterling",
@@ -505,6 +568,7 @@
     },
     {
         "name": "canadian dollar",
+        "SI": "CAD",
         "surfaces": ["canadian dollar"],
         "entity": "currency",
         "URI": "https://en.wikipedia.org/wiki/Pound_sterling",
@@ -513,6 +577,7 @@
     },
     {
         "name": "australian dollar",
+        "SI": "AUD",
         "surfaces": ["australian dollar"],
         "entity": "currency",
         "URI": "https://en.wikipedia.org/wiki/Australian_dollar",
@@ -521,6 +586,7 @@
     },
     {
         "name": "new zealand dollar",
+        "SI": "NZD",
         "surfaces": ["new zealand dollar"],
         "entity": "currency",
         "URI": "https://en.wikipedia.org/wiki/New_Zealand_dollar",
@@ -529,6 +595,7 @@
     },
     {
         "name": "japanese yen",
+        "SI": "JPY",
         "surfaces": ["japanese yen", "yen"],
         "entity": "currency",
         "URI": "https://en.wikipedia.org/wiki/Japanese_yen",
@@ -537,6 +604,7 @@
     },
     {
         "name": "swiss franc",
+        "SI": "CHF",
         "surfaces": ["swiss franc", "franc"],
         "entity": "currency",
         "URI": "https://en.wikipedia.org/wiki/Swiss_franc",
@@ -545,6 +613,7 @@
     },
     {
         "name": "south african rand",
+        "SI": "ZAR",
         "surfaces": ["south african rand", "rand"],
         "entity": "currency",
         "URI": "https://en.wikipedia.org/wiki/South_African_rand",
@@ -553,6 +622,7 @@
     },
     {
         "name": "brazilian real",
+        "SI": "BRL",
         "surfaces": ["brazilian real", "real", "reais"],
         "entity": "currency",
         "URI": "https://en.wikipedia.org/wiki/South_African_rand",
@@ -561,6 +631,7 @@
     },
     {
         "name": "indian rupee",
+        "SI": "INR",
         "surfaces": ["indian rupee", "rupee"],
         "entity": "currency",
         "URI": "https://en.wikipedia.org/wiki/Indian_rupee",
@@ -569,6 +640,7 @@
     },
     {
         "name": "mexican peso",
+        "SI": "MXN",
         "surfaces": ["mexican peso", "peso"],
         "entity": "currency",
         "URI": "https://en.wikipedia.org/wiki/Mexican_peso",
@@ -577,6 +649,7 @@
     },
     {
         "name": "russian ruble",
+        "SI": "RUB",
         "surfaces": ["russian ruble", "russian rouble", "ruble", "rouble"],
         "entity": "currency",
         "URI": "https://en.wikipedia.org/wiki/Russian_ruble",
@@ -585,6 +658,7 @@
     },
     {
         "name": "chinese yuan",
+        "SI": "CNY",
         "surfaces": ["chinese yuan", "yuan"],
         "entity": "currency",
         "URI": "https://en.wikipedia.org/wiki/Chinese_yuan",
@@ -593,6 +667,7 @@
     },
     {
         "name": "south korean won",
+        "SI": "KRW",
         "surfaces": ["south korean won", "won", "korean republic won"],
         "entity": "currency",
         "URI": "https://en.wikipedia.org/wiki/South_Korean_won",
@@ -601,6 +676,7 @@
     },
     {
         "name": "cubic metre",
+        "SI": "m**3",
         "surfaces": ["cubic metre", "cubic meter", "kiloliter", "kilolitre"],
         "entity": "volume",
         "URI": "https://en.wikipedia.org/wiki/Cubic_metre",
@@ -609,6 +685,7 @@
     },
     {
         "name": "cubic kilometre",
+        "SI": "km**3",
         "surfaces": ["cubic kilometre", "cubic kilometer"],
         "entity": "volume",
         "URI": "https://en.wikipedia.org/wiki/Cubic_metre",
@@ -617,6 +694,7 @@
     },
     {
         "name": "cubic centimetre",
+        "SI": "cm**3",
         "surfaces": ["cubic centimetre", "cubic centimeter", "millilitre", "milliliter"],
         "entity": "volume",
         "URI": "https://en.wikipedia.org/wiki/Cubic_centimetre",
@@ -625,6 +703,7 @@
     },
     {
         "name": "cubic millimetre",
+        "SI": "mm**3",
         "surfaces": ["cubic millimetre", "cubic millimeter", "microliter", "microlitre"],
         "entity": "volume",
         "URI": "https://en.wikipedia.org/wiki/Cubic_metre",
@@ -633,6 +712,7 @@
     },
     {
         "name": "litre",
+        "SI": "l",
         "surfaces": ["cubic decimetre", "cubic decimeter", "litre", "liter"],
         "entity": "volume",
         "URI": "https://en.wikipedia.org/wiki/Litre",
@@ -641,6 +721,7 @@
     },
     {
         "name": "drop",
+        "SI": "drop",
         "surfaces": ["drop"],
         "entity": "volume",
         "URI": "https://en.wikipedia.org/wiki/Drop_(unit)",
@@ -649,6 +730,7 @@
     },
     {
         "name": "barrel",
+        "SI": "bbl",
         "surfaces": ["barrel", "barrel dry", "dry barrel"],
         "entity": "volume",
         "URI": "https://en.wikipedia.org/wiki/Barrel_(unit)",
@@ -657,6 +739,7 @@
     },
     {
         "name": "gallon",
+        "SI": "gal",
         "surfaces": ["gallon"],
         "entity": "volume",
         "URI": "https://en.wikipedia.org/wiki/Gallon",
@@ -665,6 +748,7 @@
     },
     {
         "name": "quart",
+        "SI": "qt",
         "surfaces": ["quart", "dry quart", "liquid quart", "quart dry", "quart liquid"],
         "entity": "volume",
         "URI": "https://en.wikipedia.org/wiki/Quart",
@@ -673,6 +757,7 @@
     },
     {
         "name": "pint",
+        "SI": "pt",
         "surfaces": ["pint", "dry pint", "liquid pint", "pint dry", "pint liquid"],
         "entity": "volume",
         "URI": "https://en.wikipedia.org/wiki/Pint",
@@ -681,6 +766,7 @@
     },
     {
         "name": "cup",
+        "SI": "cup",
         "surfaces": ["cup"],
         "entity": "volume",
         "URI": "https://en.wikipedia.org/wiki/Cup_(unit)",
@@ -689,6 +775,7 @@
     },
     {
         "name": "fluid ounce",
+        "SI": "fl oz",
         "surfaces": ["fluid ounce"],
         "entity": "volume",
         "URI": "https://en.wikipedia.org/wiki/Fluid_ounce",
@@ -697,6 +784,7 @@
     },
     {
         "name": "tablespoon",
+        "SI": "tbsp",
         "surfaces": ["tablespoon", "table spoon"],
         "entity": "volume",
         "URI": "https://en.wikipedia.org/wiki/Tablespoon",
@@ -705,6 +793,7 @@
     },
     {
         "name": "dessertspoon",
+        "SI": "dstspn",
         "surfaces": ["dessertspoon", "dessert spoon"],
         "entity": "volume",
         "URI": "https://en.wikipedia.org/wiki/Dessert_spoon",
@@ -713,6 +802,7 @@
     },
     {
         "name": "teaspoon",
+        "SI": "tsp",
         "surfaces": ["teaspoon", "tea spoon"],
         "entity": "volume",
         "URI": "https://en.wikipedia.org/wiki/Teaspoon",
@@ -721,6 +811,7 @@
     },
     {
         "name": "cubic mile",
+        "SI": "mi**3",
         "surfaces": ["cubic mile", "cu mile"],
         "entity": "volume",
         "URI": "https://en.wikipedia.org/wiki/Cubic_mile",
@@ -729,6 +820,7 @@
     },
     {
         "name": "cubic yard",
+        "SI": "yd**3",
         "surfaces": ["cubic yard", "cu yard"],
         "entity": "volume",
         "URI": "https://en.wikipedia.org/wiki/Cubic_yard",
@@ -737,6 +829,7 @@
     },
     {
         "name": "cubic foot",
+        "SI": "ft**3",
         "surfaces": ["cubic foot", "cu foot"],
         "entity": "volume",
         "URI": "https://en.wikipedia.org/wiki/Cubic_foot",
@@ -745,6 +838,7 @@
     },
     {
         "name": "cubic inch",
+        "SI": "in**3",
         "surfaces": ["cubic inch", "cu inch"],
         "entity": "volume",
         "URI": "https://en.wikipedia.org/wiki/Cubic_inch",
@@ -753,6 +847,7 @@
     },
     {
         "name": "acre foot",
+        "SI": "ac*ft",
         "surfaces": ["acre foot", "acre-foot"],
         "entity": "volume",
         "URI": "https://en.wikipedia.org/wiki/Acre-foot",
@@ -761,6 +856,7 @@
     },
     {
         "name": "stere",
+        "SI": "st",
         "surfaces": ["stere"],
         "entity": "volume",
         "URI": "https://en.wikipedia.org/wiki/Stere",
@@ -769,6 +865,7 @@
     },
     {
         "name": "peck",
+        "SI": "pk",
         "surfaces": ["peck"],
         "entity": "volume",
         "URI": "https://en.wikipedia.org/wiki/Peck",
@@ -777,6 +874,7 @@
     },
     {
         "name": "kelvin",
+        "SI": "K",
         "surfaces": ["kelvin"],
         "entity": "temperature",
         "URI": "https://en.wikipedia.org/wiki/Kelvin",
@@ -785,6 +883,7 @@
     },
     {
         "name": "degree celsius",
+        "SI": "°C",
         "surfaces": ["degree celsius", "Celsius", "centigrade", "degree centigrade"],
         "entity": "temperature",
         "URI": "https://en.wikipedia.org/wiki/Celsius",
@@ -793,6 +892,7 @@
     },
     {
         "name": "degree fahrenheit",
+        "SI": "°F",
         "surfaces": ["degree fahrenheit", "Fahrenheit"],
         "entity": "temperature",
         "URI": "https://en.wikipedia.org/wiki/Fahrenheit",
@@ -801,6 +901,7 @@
     },
     {
         "name": "degree rankine",
+        "SI": "°Ra",
         "surfaces": ["degree rankine", "Rankine"],
         "entity": "temperature",
         "URI": "https://en.wikipedia.org/wiki/Rankine_scale",
@@ -809,6 +910,7 @@
     },
     {
         "name": "circular mil",
+        "SI": "cmil",
         "surfaces": ["circular mil"],
         "entity": "area",
         "URI": "https://en.wikipedia.org/wiki/Circular_mil",
@@ -817,6 +919,7 @@
     },
     {
         "name": "square metre",
+        "SI": "m**2",
         "surfaces": ["square metre", "square meter"],
         "entity": "area",
         "URI": "https://en.wikipedia.org/wiki/Square_metre",
@@ -825,6 +928,7 @@
     },
     {
         "name": "square kilometre",
+        "SI": "km**2",
         "surfaces": ["square kilometre", "square kilometer"],
         "entity": "area",
         "URI": "https://en.wikipedia.org/wiki/Square_kilometre",
@@ -833,6 +937,7 @@
     },
     {
         "name": "hectare",
+        "SI": "ha",
         "surfaces": ["square hectometre", "square hectometer"],
         "entity": "area",
         "URI": "https://en.wikipedia.org/wiki/Hectare",
@@ -841,6 +946,7 @@
     },
     {
         "name": "square mile",
+        "SI": "mi**2",
         "surfaces": ["square mile"],
         "entity": "area",
         "URI": "https://en.wikipedia.org/wiki/Square_mile",
@@ -849,6 +955,7 @@
     },
     {
         "name": "square yard",
+        "SI": "yd**2",
         "surfaces": ["square yard", "gaj"],
         "entity": "area",
         "URI": "https://en.wikipedia.org/wiki/Square_yard",
@@ -857,6 +964,7 @@
     },
     {
         "name": "square foot",
+        "SI": "ft**2",
         "surfaces": ["square foot"],
         "entity": "area",
         "URI": "https://en.wikipedia.org/wiki/Square_foot",
@@ -865,6 +973,7 @@
     },
     {
         "name": "square inch",
+        "SI": "in**2",
         "surfaces": ["square inch"],
         "entity": "area",
         "URI": "https://en.wikipedia.org/wiki/Square_inch",
@@ -873,6 +982,7 @@
     },
     {
         "name": "acre",
+        "SI": "ac",
         "surfaces": ["acre"],
         "entity": "area",
         "URI": "https://en.wikipedia.org/wiki/Acre",
@@ -881,6 +991,7 @@
     },
     {
         "name": "pascal",
+        "SI": "Pa",
         "surfaces": ["pascal"],
         "entity": "pressure",
         "URI": "https://en.wikipedia.org/wiki/Pascal",
@@ -889,6 +1000,7 @@
     },
     {
         "name": "hectopascal",
+        "SI": "hPa",
         "surfaces": ["hectopascal"],
         "entity": "pressure",
         "URI": "https://en.wikipedia.org/wiki/Pascal",
@@ -897,6 +1009,7 @@
     },
     {
         "name": "kilopascal",
+        "SI": "kPa",
         "surfaces": ["kilopascal"],
         "entity": "pressure",
         "URI": "https://en.wikipedia.org/wiki/Pascal",
@@ -905,6 +1018,7 @@
     },
     {
         "name": "megapascal",
+        "SI": "MPa",
         "surfaces": ["megapascal"],
         "entity": "pressure",
         "URI": "https://en.wikipedia.org/wiki/Pascal",
@@ -913,6 +1027,7 @@
     },
     {
         "name": "gigapascal",
+        "SI": "GPa",
         "surfaces": ["gigapascal"],
         "entity": "pressure",
         "URI": "https://en.wikipedia.org/wiki/Pascal",
@@ -921,6 +1036,7 @@
     },
     {
         "name": "bar",
+        "SI": "bar",
         "surfaces": ["bar"],
         "entity": "pressure",
         "URI": "https://en.wikipedia.org/wiki/Bar_(unit)",
@@ -929,6 +1045,7 @@
     },
     {
         "name": "millibar",
+        "SI": "mbar",
         "surfaces": ["millibar"],
         "entity": "pressure",
         "URI": "https://en.wikipedia.org/wiki/Bar_(unit)",
@@ -937,6 +1054,7 @@
     },
     {
         "name": "microbar",
+        "SI": "µbar",
         "surfaces": ["microbar"],
         "entity": "pressure",
         "URI": "https://en.wikipedia.org/wiki/Bar_(unit)",
@@ -945,6 +1063,7 @@
     },
     {
         "name": "pound per square inch",
+        "SI": "psi",
         "surfaces": ["pound per square inch", "pound-force per square inch"],
         "entity": "pressure",
         "URI": "https://en.wikipedia.org/wiki/Pounds_per_square_inch",
@@ -953,6 +1072,7 @@
     },
     {
         "name": "torr",
+        "SI": "Torr",
         "surfaces": ["torr"],
         "entity": "pressure",
         "URI": "https://en.wikipedia.org/wiki/Torr",
@@ -961,6 +1081,7 @@
     },
     {
         "name": "millimeter of mercury",
+        "SI": "mmHg",
         "surfaces": ["millimetre of mercury", "millimetre mercury", "millimeter of mercury", "millimeter mercury"],
         "entity": "pressure",
         "URI": "https://en.wikipedia.org/wiki/Millimeter_of_mercury",
@@ -969,6 +1090,7 @@
     },
     {
         "name": "centimeter of water",
+        "SI": "cmH2O",
         "surfaces": ["centimeter of water", "centimetre of water"],
         "entity": "pressure",
         "URI": "https://en.wikipedia.org/wiki/Centimetre_of_water",
@@ -977,6 +1099,7 @@
     },
     {
         "name": "inch of water",
+        "SI": "inH2O",
         "surfaces": ["inch of water", "inch water column"],
         "entity": "pressure",
         "URI": "https://en.wikipedia.org/wiki/Inch_of_water",
@@ -985,6 +1108,7 @@
     },
     {
         "name": "inch of mercury",
+        "SI": "inHg",
         "surfaces": ["inch of mercury", "inch mercury"],
         "entity": "pressure",
         "URI": "https://en.wikipedia.org/wiki/Inch_of_mercury",
@@ -993,6 +1117,7 @@
     },
     {
         "name": "standard atmosphere",
+        "SI": "atm",
         "surfaces": ["standard atmosphere", "atmosphere"],
         "entity": "pressure",
         "URI": "https://en.wikipedia.org/wiki/Atmosphere_(unit)",
@@ -1001,6 +1126,7 @@
     },
     {
         "name": "technical atmosphere",
+        "SI": "at",
         "surfaces": ["technical atmosphere"],
         "entity": "pressure",
         "URI": "https://en.wikipedia.org/wiki/Technical_atmosphere",
@@ -1009,6 +1135,7 @@
     },
     {
         "name": "barye",
+        "SI": "Ba",
         "surfaces": ["barye", "barad", "barrie", "bary", "baryd", "baryed", "barie"],
         "entity": "pressure",
         "URI": "https://en.wikipedia.org/wiki/Barye",
@@ -1017,6 +1144,7 @@
     },
     {
         "name": "joule",
+        "SI": "J",
         "surfaces": ["joule"],
         "entity": "energy",
         "URI": "https://en.wikipedia.org/wiki/Joule",
@@ -1025,6 +1153,7 @@
     },
     {
         "name": "millijoule",
+        "SI": "mJ",
         "surfaces": ["millijoule"],
         "entity": "energy",
         "URI": "https://en.wikipedia.org/wiki/Joule",
@@ -1033,6 +1162,7 @@
     },
     {
         "name": "kilojoule",
+        "SI": "kJ",
         "surfaces": ["kilojoule"],
         "entity": "energy",
         "URI": "https://en.wikipedia.org/wiki/Joule",
@@ -1041,6 +1171,7 @@
     },
     {
         "name": "electronvolt",
+        "SI": "eV",
         "surfaces": ["electron volt", "electronvolt", "electron-volt"],
         "entity": "energy",
         "URI": "https://en.wikipedia.org/wiki/Electronvolt",
@@ -1049,6 +1180,7 @@
     },
     {
         "name": "kiloelectronvolt",
+        "SI": "keV",
         "surfaces": ["kiloelectron volt", "kiloelectronvolt", "kiloelectron-volt"],
         "entity": "energy",
         "URI": "https://en.wikipedia.org/wiki/Electronvolt",
@@ -1057,6 +1189,7 @@
     },
     {
         "name": "megaelectronvolt",
+        "SI": "MeV",
         "surfaces": ["megaelectron volt", "megaelectronvolt", "megaelectron-volt"],
         "entity": "energy",
         "URI": "https://en.wikipedia.org/wiki/Electronvolt",
@@ -1065,6 +1198,7 @@
     },
     {
         "name": "gigaelectronvolt",
+        "SI": "GeV",
         "surfaces": ["gigaelectron volt", "gigaelectronvolt", "gigaelectron-volt", "bevatron"],
         "entity": "energy",
         "URI": "https://en.wikipedia.org/wiki/Electronvolt",
@@ -1073,6 +1207,7 @@
     },
     {
         "name": "teraelectronvolt",
+        "SI": "TeV",
         "surfaces": ["teraelectron volt", "teraelectronvolt", "teraelectron-volt"],
         "entity": "energy",
         "URI": "https://en.wikipedia.org/wiki/Electronvolt",
@@ -1081,6 +1216,7 @@
     },
     {
         "name": "hartree",
+        "SI": "Eh",
         "surfaces": ["hartree", "hartree energy"],
         "entity": "energy",
         "URI": "https://en.wikipedia.org/wiki/Hartree",
@@ -1089,6 +1225,7 @@
     },
     {
         "name": "erg",
+        "SI": "erg",
         "surfaces": ["erg"],
         "entity": "energy",
         "URI": "https://en.wikipedia.org/wiki/Erg",
@@ -1097,6 +1234,7 @@
     },
     {
         "name": "kilowatt hour",
+        "SI": "kWh",
         "surfaces": ["kilowatt hour", "kilowatthour", "kilowatt-hour"],
         "entity": "energy",
         "URI": "https://en.wikipedia.org/wiki/Kilowatt_hour",
@@ -1105,6 +1243,7 @@
     },
     {
         "name": "watt second",
+        "SI": "W s",
         "surfaces": ["watt second", "watt-second", "wattsecond"],
         "entity": "energy",
         "URI": "https://en.wikipedia.org/wiki/Watt_second",
@@ -1113,6 +1252,7 @@
     },
     {
         "name": "horsepower-hour",
+        "SI": "hph",
         "surfaces": ["horsepower hour", "horsepowerhour", "horsepower-hour"],
         "entity": "energy",
         "URI": "https://en.wikipedia.org/wiki/Horsepower-hour",
@@ -1121,6 +1261,7 @@
     },
     {
         "name": "calorie",
+        "SI": "cal",
         "surfaces": ["calorie", "small calorie", "gram calorie"],
         "entity": "energy",
         "URI": "https://en.wikipedia.org/wiki/Calorie",
@@ -1129,6 +1270,7 @@
     },
     {
         "name": "kilocalorie",
+        "SI": "kcal",
         "surfaces": ["kilocalorie", "large calorie", "kilogram calorie"],
         "entity": "energy",
         "URI": "https://en.wikipedia.org/wiki/Calorie",
@@ -1137,6 +1279,7 @@
     },
     {
         "name": "british thermal unit",
+        "SI": "BTU",
         "surfaces": ["british thermal unit"],
         "entity": "energy",
         "URI": "https://en.wikipedia.org/wiki/British_thermal_unit",
@@ -1145,6 +1288,7 @@
     },
     {
         "name": "mega british thermal unit",
+        "SI": "MBTU",
         "surfaces": ["mega british thermal unit"],
         "entity": "energy",
         "URI": "https://en.wikipedia.org/wiki/British_thermal_unit",
@@ -1153,6 +1297,7 @@
     },
     {
         "name": "quad",
+        "SI": "quad",
         "surfaces": ["quad", "quadrillion british thermal unit"],
         "entity": "energy",
         "URI": "https://en.wikipedia.org/wiki/Quad_(unit)",
@@ -1161,6 +1306,7 @@
     },
     {
         "name": "gigaton",
+        "SI": "Gt",
         "surfaces": ["gigaton", "gigatonne"],
         "entity": "energy",
         "URI": "https://en.wikipedia.org/wiki/TNT_equivalent",
@@ -1169,6 +1315,7 @@
     },
     {
         "name": "megaton",
+        "SI": "Mt",
         "surfaces": ["megaton", "megatonne"],
         "entity": "energy",
         "URI": "https://en.wikipedia.org/wiki/TNT_equivalent",
@@ -1177,6 +1324,7 @@
     },
     {
         "name": "kiloton",
+        "SI": "kt",
         "surfaces": ["kiloton", "kilotonne"],
         "entity": "energy",
         "URI": "https://en.wikipedia.org/wiki/TNT_equivalent",
@@ -1185,6 +1333,7 @@
     },
     {
         "name": "therm",
+        "SI": "thm",
         "surfaces": ["therm", "thermie"],
         "entity": "energy",
         "URI": "https://en.wikipedia.org/wiki/Therm",
@@ -1193,6 +1342,7 @@
     },
     {
         "name": "ton of refrigeration",
+        "SI": "TR",
         "surfaces": ["ton of refrigeration", "refrigeration ton"],
         "entity": "power",
         "URI": "https://en.wikipedia.org/wiki/Ton_of_refrigeration",
@@ -1201,6 +1351,7 @@
     },
     {
         "name": "watt",
+        "SI": "W",
         "surfaces": ["watt"],
         "entity": "power",
         "URI": "https://en.wikipedia.org/wiki/Watt",
@@ -1209,6 +1360,7 @@
     },
     {
         "name": "kilowatt",
+        "SI": "kW",
         "surfaces": ["kilowatt"],
         "entity": "power",
         "URI": "https://en.wikipedia.org/wiki/Watt",
@@ -1217,6 +1369,7 @@
     },
     {
         "name": "megawatt",
+        "SI": "MW",
         "surfaces": ["megawatt"],
         "entity": "power",
         "URI": "https://en.wikipedia.org/wiki/Watt",
@@ -1225,6 +1378,7 @@
     },
     {
         "name": "gigawatt",
+        "SI": "GW",
         "surfaces": ["gigawatt"],
         "entity": "power",
         "URI": "https://en.wikipedia.org/wiki/Watt",
@@ -1233,6 +1387,7 @@
     },
     {
         "name": "horsepower",
+        "SI": "hp",
         "surfaces": ["horsepower", "pferdestarke", "uk horsepower", "british horsepower", "boiler horsepower", "metric horsepower", "hydraulic horsepower"],
         "entity": "power",
         "URI": "https://en.wikipedia.org/wiki/Horsepower",
@@ -1241,6 +1396,7 @@
     },
     {
         "name": "volt-ampere",
+        "SI": "VA",
         "surfaces": ["volt-ampere", "volt ampere", "voltampere"],
         "entity": "power",
         "URI": "https://en.wikipedia.org/wiki/Volt-ampere",
@@ -1249,6 +1405,7 @@
     },
     {
         "name": "newton",
+        "SI": "N",
         "surfaces": ["newton"],
         "entity": "force",
         "URI": "https://en.wikipedia.org/wiki/Newton_(unit)",
@@ -1257,6 +1414,7 @@
     },
     {
         "name": "kilonewton",
+        "SI": "kN",
         "surfaces": ["kilonewton"],
         "entity": "force",
         "URI": "https://en.wikipedia.org/wiki/Newton_(unit)",
@@ -1265,6 +1423,7 @@
     },
     {
         "name": "dyne",
+        "SI": "dyn",
         "surfaces": ["dyne"],
         "entity": "force",
         "URI": "https://en.wikipedia.org/wiki/Dyne",
@@ -1273,6 +1432,7 @@
     },
     {
         "name": "kilogram-force",
+        "SI": "kgf",
         "surfaces": ["kilogram-force", "kilogram force", "kilogramforce", "kilopond", "force kilogram"],
         "entity": "force",
         "URI": "https://en.wikipedia.org/wiki/Kilogram-force",
@@ -1281,6 +1441,7 @@
     },
     {
         "name": "gram-force",
+        "SI": "gf",
         "surfaces": ["gram-force", "gram force", "gramforce", "pond", "force gram"],
         "entity": "force",
         "URI": "https://en.wikipedia.org/wiki/Kilogram-force",
@@ -1289,6 +1450,7 @@
     },
     {
         "name": "ton-force",
+        "SI": "tf",
         "surfaces": ["ton-force", "ton force", "tonforce", "force ton", "force tonne", "tonne-force", "tonne force", "tonneforce"],
         "entity": "force",
         "URI": "https://en.wikipedia.org/wiki/Ton-force",
@@ -1297,6 +1459,7 @@
     },
     {
         "name": "pound-force",
+        "SI": "lbf",
         "surfaces": ["pound-force", "pound force", "poundforce", "force pound"],
         "entity": "force",
         "URI": "https://en.wikipedia.org/wiki/Pound_(force)",
@@ -1305,6 +1468,7 @@
     },
     {
         "name": "ounce-force",
+        "SI": "ozf",
         "surfaces": ["ounce-force", "ounce force", "ounceforce", "force ounce"],
         "entity": "force",
         "URI": "https://en.wikipedia.org/wiki/Pound_(force)",
@@ -1313,6 +1477,7 @@
     },
     {
         "name": "poundal",
+        "SI": "pdl",
         "surfaces": ["poundal"],
         "entity": "force",
         "URI": "https://en.wikipedia.org/wiki/Poundal",
@@ -1321,6 +1486,7 @@
     },
     {
         "name": "kip",
+        "SI": "kip",
         "surfaces": ["kip", "kip-force", "kip force", "kipforce"],
         "entity": "force",
         "URI": "https://en.wikipedia.org/wiki/Kip_(unit)",
@@ -1329,6 +1495,7 @@
     },
     {
         "name": "shake",
+        "SI": "shake",
         "surfaces": ["shake"],
         "entity": "time",
         "URI": "https://en.wikipedia.org/wiki/Shake_(unit)",
@@ -1337,6 +1504,7 @@
     },
     {
         "name": "second",
+        "SI": "s",
         "surfaces": ["second"],
         "entity": "time",
         "URI": "https://en.wikipedia.org/wiki/Second",
@@ -1345,6 +1513,7 @@
     },
     {
         "name": "millisecond",
+        "SI": "ms",
         "surfaces": ["millisecond"],
         "entity": "time",
         "URI": "https://en.wikipedia.org/wiki/Millisecond",
@@ -1353,6 +1522,7 @@
     },
     {
         "name": "microsecond",
+        "SI": "μs",
         "surfaces": ["microsecond"],
         "entity": "time",
         "URI": "https://en.wikipedia.org/wiki/Microsecond",
@@ -1361,6 +1531,7 @@
     },
     {
         "name": "nanosecond",
+        "SI": "ns",
         "surfaces": ["nanosecond"],
         "entity": "time",
         "URI": "https://en.wikipedia.org/wiki/Nanosecond",
@@ -1369,6 +1540,7 @@
     },
     {
         "name": "minute",
+        "SI": "min",
         "surfaces": ["minute"],
         "entity": "time",
         "URI": "https://en.wikipedia.org/wiki/Minute",
@@ -1377,6 +1549,7 @@
     },
     {
         "name": "hour",
+        "SI": "h",
         "surfaces": ["hour"],
         "entity": "time",
         "URI": "https://en.wikipedia.org/wiki/Hour",
@@ -1385,6 +1558,7 @@
     },
     {
         "name": "day",
+        "SI": "d",
         "surfaces": ["day"],
         "entity": "time",
         "URI": "https://en.wikipedia.org/wiki/Day",
@@ -1393,6 +1567,7 @@
     },
     {
         "name": "week",
+        "SI": "week",
         "surfaces": ["week"],
         "entity": "time",
         "URI": "https://en.wikipedia.org/wiki/Week",
@@ -1401,6 +1576,7 @@
     },
     {
         "name": "month",
+        "SI": "month",
         "surfaces": ["month"],
         "entity": "time",
         "URI": "https://en.wikipedia.org/wiki/Month",
@@ -1409,6 +1585,7 @@
     },
     {
         "name": "year",
+        "SI": "year",
         "surfaces": ["year"],
         "entity": "time",
         "URI": "https://en.wikipedia.org/wiki/Year",
@@ -1417,6 +1594,7 @@
     },
     {
         "name": "fortnight",
+        "SI": "fortnight",
         "surfaces": ["fortnight"],
         "entity": "time",
         "URI": "https://en.wikipedia.org/wiki/Fortnight",
@@ -1425,6 +1603,7 @@
     },
     {
         "name": "lustrum",
+        "SI": "lustrum",
         "surfaces": ["lustrum"],
         "entity": "time",
         "URI": "https://en.wikipedia.org/wiki/Lustrum",
@@ -1433,6 +1612,7 @@
     },
     {
         "name": "decade",
+        "SI": "decade",
         "surfaces": ["decade"],
         "entity": "time",
         "URI": "https://en.wikipedia.org/wiki/Decade",
@@ -1441,6 +1621,7 @@
     },
     {
         "name": "century",
+        "SI": "century",
         "surfaces": ["century"],
         "entity": "time",
         "URI": "https://en.wikipedia.org/wiki/Century",
@@ -1449,6 +1630,7 @@
     },
     {
         "name": "millennium",
+        "SI": "millennium",
         "surfaces": ["millennium"],
         "entity": "time",
         "URI": "https://en.wikipedia.org/wiki/Millennium",
@@ -1457,6 +1639,7 @@
     },
     {
         "name": "speed of light",
+        "SI": "c",
         "surfaces": ["speed of light", "lightspeed"],
         "entity": "speed",
         "URI": "https://en.wikipedia.org/wiki/Speed_of_light",
@@ -1465,6 +1648,7 @@
     },
     {
         "name": "knot",
+        "SI": "kn",
         "surfaces": ["knot"],
         "entity": "speed",
         "URI": "https://en.wikipedia.org/wiki/Knot_(unit)",
@@ -1473,6 +1657,7 @@
     },
     {
         "name": "metre per second",
+        "SI": "m/s",
         "surfaces": ["metre per second", "meter per second"],
         "entity": "speed",
         "URI": "https://en.wikipedia.org/wiki/Metre_per_second",
@@ -1481,6 +1666,7 @@
     },
     {
         "name": "metre per hour",
+        "SI": "m/h",
         "surfaces": ["metre per hour", "meter per hour"],
         "entity": "speed",
         "URI": "https://en.wikipedia.org/wiki/Metre_per_hour",
@@ -1489,6 +1675,7 @@
     },
     {
         "name": "foot per second",
+        "SI": "fps",
         "surfaces": ["foot per second"],
         "entity": "speed",
         "URI": "https://en.wikipedia.org/wiki/Foot_per_second",
@@ -1497,6 +1684,7 @@
     },
     {
         "name": "inch per second",
+        "SI": "ips",
         "surfaces": ["inch per second"],
         "entity": "speed",
         "URI": "https://en.wikipedia.org/wiki/Inch_per_second",
@@ -1505,6 +1693,7 @@
     },
     {
         "name": "kilometre per hour",
+        "SI": "km/h",
         "surfaces": ["kilometre per hour", "kilometer per hour"],
         "entity": "speed",
         "URI": "https://en.wikipedia.org/wiki/Kilometres_per_hour",
@@ -1513,6 +1702,7 @@
     },
     {
         "name": "mile per hour",
+        "SI": "mph",
         "surfaces": ["mile per hour"],
         "entity": "speed",
         "URI": "https://en.wikipedia.org/wiki/Miles_per_hour",
@@ -1521,6 +1711,7 @@
     },
     {
         "name": "mach number",
+        "SI": "Ma",
         "surfaces": ["mach", "mach number"],
         "entity": "speed",
         "URI": "https://en.wikipedia.org/wiki/Mach_number",
@@ -1529,6 +1720,7 @@
     },
     {
         "name": "degree angle",
+        "SI": "°",
         "surfaces": ["degree", "degree of arc", "arc degree", "arcdegree", "angular degree"],
         "entity": "angle",
         "URI": "https://en.wikipedia.org/wiki/Degree_(angle)",
@@ -1537,6 +1729,7 @@
     },
     {
         "name": "radian",
+        "SI": "rad",
         "surfaces": ["radian"],
         "entity": "angle",
         "URI": "https://en.wikipedia.org/wiki/Radian",
@@ -1545,6 +1738,7 @@
     },
     {
         "name": "steradian",
+        "SI": "sr",
         "surfaces": ["steradian", "square radian"],
         "entity": "angle",
         "URI": "https://en.wikipedia.org/wiki/Steradian",
@@ -1553,6 +1747,7 @@
     },
     {
         "name": "minute of arc",
+        "SI": "MOA",
         "surfaces": ["minute", "minute of arc", "arcminute", "minute arc", "angular minute", "arc minute"],
         "entity": "angle",
         "URI": "https://en.wikipedia.org/wiki/Minute_and_second_of_arc",
@@ -1561,6 +1756,7 @@
     },
     {
         "name": "second of arc",
+        "SI": "SOA",
         "surfaces": ["second", "second of arc", "arcsecond", "second arc", "angular second", "arc second"],
         "entity": "angle",
         "URI": "https://en.wikipedia.org/wiki/Minute_and_second_of_arc",
@@ -1569,6 +1765,7 @@
     },
     {
         "name": "bit",
+        "SI": "b",
         "surfaces": ["bit"],
         "entity": "data storage",
         "URI": "https://en.wikipedia.org/wiki/Bit",
@@ -1577,6 +1774,7 @@
     },
     {
         "name": "kilobit",
+        "SI": "kb",
         "surfaces": ["kilobit"],
         "entity": "data storage",
         "URI": "https://en.wikipedia.org/wiki/Kilobit",
@@ -1585,6 +1783,7 @@
     },
     {
         "name": "megabit",
+        "SI": "Mb",
         "surfaces": ["megabit"],
         "entity": "data storage",
         "URI": "https://en.wikipedia.org/wiki/Megabit",
@@ -1593,6 +1792,7 @@
     },
     {
         "name": "gigabit",
+        "SI": "Gb",
         "surfaces": ["gigabit"],
         "entity": "data storage",
         "URI": "https://en.wikipedia.org/wiki/Gigabit",
@@ -1601,6 +1801,7 @@
     },
     {
         "name": "terabit",
+        "SI": "Tb",
         "surfaces": ["terabit"],
         "entity": "data storage",
         "URI": "https://en.wikipedia.org/wiki/Terabit",
@@ -1609,6 +1810,7 @@
     },
     {
         "name": "byte",
+        "SI": "B",
         "surfaces": ["byte"],
         "entity": "data storage",
         "URI": "https://en.wikipedia.org/wiki/Byte",
@@ -1617,6 +1819,7 @@
     },
     {
         "name": "kilobyte",
+        "SI": "kB",
         "surfaces": ["kilobyte"],
         "entity": "data storage",
         "URI": "https://en.wikipedia.org/wiki/Kilobyte",
@@ -1625,6 +1828,7 @@
     },
     {
         "name": "megabyte",
+        "SI": "MB",
         "surfaces": ["megabyte"],
         "entity": "data storage",
         "URI": "https://en.wikipedia.org/wiki/Megabyte",
@@ -1633,6 +1837,7 @@
     },
     {
         "name": "gigabyte",
+        "SI": "GB",
         "surfaces": ["gigabyte"],
         "entity": "data storage",
         "URI": "https://en.wikipedia.org/wiki/Gigabyte",
@@ -1641,6 +1846,7 @@
     },
     {
         "name": "terabyte",
+        "SI": "TB",
         "surfaces": ["terabyte"],
         "entity": "data storage",
         "URI": "https://en.wikipedia.org/wiki/Terabyte",
@@ -1649,6 +1855,7 @@
     },
     {
         "name": "gal",
+        "SI": "Gal",
         "surfaces": ["gal", "galileo"],
         "entity": "acceleration",
         "URI": "https://en.wikipedia.org/wiki/Gal_(unit)",
@@ -1657,6 +1864,7 @@
     },
     {
         "name": "foot per square second",
+        "SI": "ft/s**2",
         "surfaces": ["foot per second squared", "foot per square second"],
         "entity": "acceleration",
         "URI": "https://en.wikipedia.org/wiki/Foot_per_second_squared",
@@ -1665,6 +1873,7 @@
     },
     {
         "name": "metre per square second",
+        "SI": "m/s**2",
         "surfaces": ["metre per second squared", "meter per second squared", "metre per square second", "meter per square second"],
         "entity": "acceleration",
         "URI": "https://en.wikipedia.org/wiki/Metre_per_second_squared",
@@ -1673,6 +1882,7 @@
     },
     {
         "name": "newton metre",
+        "SI": "N*m",
         "surfaces": ["newton metre", "newton meter", "newton-meter", "newton-metre"],
         "entity": "torque",
         "URI": "https://en.wikipedia.org/wiki/Newton_metre",
@@ -1681,6 +1891,7 @@
     },
     {
         "name": "poise",
+        "SI": "P",
         "surfaces": ["poise"],
         "entity": "dynamic viscosity",
         "URI": "https://en.wikipedia.org/wiki/Poise",
@@ -1689,6 +1900,7 @@
     },
     {
         "name": "centipoise",
+        "SI": "cP",
         "surfaces": ["centipoise"],
         "entity": "dynamic viscosity",
         "URI": "https://en.wikipedia.org/wiki/Poise",
@@ -1697,6 +1909,7 @@
     },
     {
         "name": "stokes",
+        "SI": "St",
         "surfaces": ["stokes"],
         "entity": "kinematic viscosity",
         "URI": "https://en.wikipedia.org/wiki/Viscosity#Stokes_.28unit.29",
@@ -1705,6 +1918,7 @@
     },
     {
         "name": "centistokes",
+        "SI": "cSt",
         "surfaces": ["centistokes"],
         "entity": "kinematic viscosity",
         "URI": "https://en.wikipedia.org/wiki/Viscosity#Stokes_.28unit.29",
@@ -1713,6 +1927,7 @@
     },
     {
         "name": "rhe",
+        "SI": "rhe",
         "surfaces": ["rhe", "reciprocal poise"],
         "entity": "fluidity",
         "URI": "https://en.wikipedia.org/wiki/Viscosity#Fluidity",
@@ -1721,6 +1936,7 @@
     },
     {
         "name": "decibel",
+        "SI": "dB",
         "surfaces": ["decibel"],
         "entity": "sound level",
         "URI": "https://en.wikipedia.org/wiki/Decibel",
@@ -1729,6 +1945,7 @@
     },
     {
         "name": "stilb",
+        "SI": "sb",
         "surfaces": ["stilb"],
         "entity": "luminance",
         "URI": "https://en.wikipedia.org/wiki/Stilb_(unit)",
@@ -1737,6 +1954,7 @@
     },
     {
         "name": "candela per square metre",
+        "SI": "cd/m**2",
         "surfaces": ["candela per square metre", "candela per square meter", "nit"],
         "entity": "luminance",
         "URI": "https://en.wikipedia.org/wiki/Candela_per_square_metre",
@@ -1745,6 +1963,7 @@
     },
     {
         "name": "candela",
+        "SI": "cd",
         "surfaces": ["candela", "candle"],
         "entity": "luminous intensity",
         "URI": "https://en.wikipedia.org/wiki/Candela",
@@ -1753,6 +1972,7 @@
     },
     {
         "name": "lumen",
+        "SI": "lm",
         "surfaces": ["lumen"],
         "entity": "luminous flux",
         "URI": "https://en.wikipedia.org/wiki/Lumen_(unit)",
@@ -1761,6 +1981,7 @@
     },
     {
         "name": "lux",
+        "SI": "lx",
         "surfaces": ["lux"],
         "entity": "illuminance",
         "URI": "https://en.wikipedia.org/wiki/Lux",
@@ -1769,6 +1990,7 @@
     },
     {
         "name": "cycle per second",
+        "SI": "cps",
         "surfaces": ["cycle per second"],
         "entity": "instance frequency",
         "URI": "https://en.wikipedia.org/wiki/Cycle_per_second",
@@ -1785,6 +2007,7 @@
     },
     {
         "name": "hertz",
+        "SI": "Hz",
         "surfaces": ["hertz", "revolutions per second"],
         "entity": "frequency",
         "URI": "https://en.wikipedia.org/wiki/Hertz",
@@ -1793,6 +2016,7 @@
     },
     {
         "name": "inverse second",
+        "SI": "s**-1",
         "surfaces": ["inverse second", "reciprocal second", "per second"],
         "entity": "frequency",
         "URI": "https://en.wikipedia.org/wiki/Inverse_second",
@@ -1801,6 +2025,7 @@
     },
     {
         "name": "megahertz",
+        "SI": "MHz",
         "surfaces": ["megahertz"],
         "entity": "frequency",
         "URI": "https://en.wikipedia.org/wiki/Hertz",
@@ -1809,6 +2034,7 @@
     },
     {
         "name": "mole",
+        "SI": "mol",
         "surfaces": ["mole"],
         "entity": "amount of substance",
         "URI": "https://en.wikipedia.org/wiki/Mole_(unit)",
@@ -1817,6 +2043,7 @@
     },
     {
         "name": "statcoulomb",
+        "SI": "statC",
         "surfaces": ["statcoulomb", "franklin", "electrostatic unit of charge"],
         "entity": "charge",
         "URI": "https://en.wikipedia.org/wiki/Statcoulomb",
@@ -1825,6 +2052,7 @@
     },
     {
         "name": "coulomb",
+        "SI": "C",
         "surfaces": ["coulomb"],
         "entity": "charge",
         "URI": "https://en.wikipedia.org/wiki/Coulomb",
@@ -1833,6 +2061,7 @@
     },
     {
         "name": "millicoulomb",
+        "SI": "mC",
         "surfaces": ["millicoulomb"],
         "entity": "charge",
         "URI": "https://en.wikipedia.org/wiki/Coulomb",
@@ -1841,6 +2070,7 @@
     },
     {
         "name": "microcoulomb",
+        "SI": "µC",
         "surfaces": ["microcoulomb"],
         "entity": "charge",
         "URI": "https://en.wikipedia.org/wiki/Coulomb",
@@ -1849,6 +2079,7 @@
     },
     {
         "name": "ampere-hour",
+        "SI": "Ah",
         "surfaces": ["ampere-hour", "ampere hour", "amp-hour"],
         "entity": "charge",
         "URI": "https://en.wikipedia.org/wiki/Coulomb",
@@ -1857,6 +2088,7 @@
     },
     {
         "name": "ampere",
+        "SI": "A",
         "surfaces": ["ampere"],
         "entity": "current",
         "URI": "https://en.wikipedia.org/wiki/Ampere",
@@ -1865,6 +2097,7 @@
     },
     {
         "name": "statvolt",
+        "SI": "statV",
         "surfaces": ["statvolt"],
         "entity": "electric potential",
         "URI": "https://en.wikipedia.org/wiki/Statvolt",
@@ -1873,6 +2106,7 @@
     },
     {
         "name": "volt",
+        "SI": "V",
         "surfaces": ["volt"],
         "entity": "electric potential",
         "URI": "https://en.wikipedia.org/wiki/Volt",
@@ -1881,6 +2115,7 @@
     },
     {
         "name": "ohm",
+        "SI": "Ω",
         "surfaces": ["ohm"],
         "entity": "electrical resistance",
         "URI": "https://en.wikipedia.org/wiki/Ohm",
@@ -1889,6 +2124,7 @@
     },
     {
         "name": "statmho",
+        "SI": "statmho",
         "surfaces": ["statmho"],
         "entity": "electrical conductance",
         "URI": "https://en.wikipedia.org/wiki/Statmho",
@@ -1897,6 +2133,7 @@
     },
     {
         "name": "statohm",
+        "SI": "statohm",
         "surfaces": ["statohm"],
         "entity": "electrical resistance",
         "URI": "https://en.wikipedia.org/wiki/Statmho",
@@ -1905,6 +2142,7 @@
     },
     {
         "name": "siemens",
+        "SI": "S",
         "surfaces": ["siemens", "mho"],
         "entity": "electrical conductance",
         "URI": "https://en.wikipedia.org/wiki/Siemens_(unit)",
@@ -1913,6 +2151,7 @@
     },
     {
         "name": "faraday",
+        "SI": "F",
         "surfaces": ["faraday"],
         "entity": "charge",
         "URI": "https://en.wikipedia.org/wiki/Faraday_constant",
@@ -1921,6 +2160,7 @@
     },
     {
         "name": "farad",
+        "SI": "F",
         "surfaces": ["farad"],
         "entity": "capacitance",
         "URI": "https://en.wikipedia.org/wiki/Farad",
@@ -1929,6 +2169,7 @@
     },
     {
         "name": "millifarad",
+        "SI": "mF",
         "surfaces": ["millifarad"],
         "entity": "capacitance",
         "URI": "https://en.wikipedia.org/wiki/Farad",
@@ -1937,6 +2178,7 @@
     },
     {
         "name": "microfarad",
+        "SI": "μF",
         "surfaces": ["microfarad"],
         "entity": "capacitance",
         "URI": "https://en.wikipedia.org/wiki/Farad",
@@ -1945,6 +2187,7 @@
     },
     {
         "name": "henry",
+        "SI": "H",
         "surfaces": ["henry"],
         "entity": "inductance",
         "URI": "https://en.wikipedia.org/wiki/Henry_(unit)",
@@ -1953,6 +2196,7 @@
     },
     {
         "name": "ampere-turn",
+        "SI": "AT",
         "surfaces": ["ampere-turn", "ampere turn"],
         "entity": "magnetomotive force",
         "URI": "https://en.wikipedia.org/wiki/Ampere-turn",
@@ -1961,6 +2205,7 @@
     },
     {
         "name": "oersted",
+        "SI": "Oe",
         "surfaces": ["oersted"],
         "entity": "magnetic field",
         "URI": "https://en.wikipedia.org/wiki/Oersted",
@@ -1969,6 +2214,7 @@
     },
     {
         "name": "weber",
+        "SI": "Wb",
         "surfaces": ["weber"],
         "entity": "magnetic flux",
         "URI": "https://en.wikipedia.org/wiki/Weber_(unit)",
@@ -1977,6 +2223,7 @@
     },
     {
         "name": "milliweber",
+        "SI": "mWb",
         "surfaces": ["milliweber"],
         "entity": "magnetic flux",
         "URI": "https://en.wikipedia.org/wiki/Weber_(unit)",
@@ -1985,6 +2232,7 @@
     },
     {
         "name": "microweber",
+        "SI": "µWb",
         "surfaces": ["microweber"],
         "entity": "magnetic flux",
         "URI": "https://en.wikipedia.org/wiki/Weber_(unit)",
@@ -1993,6 +2241,7 @@
     },
     {
         "name": "maxwell",
+        "SI": "Mx",
         "surfaces": ["maxwell"],
         "entity": "magnetic flux",
         "URI": "https://en.wikipedia.org/wiki/Maxwell_(unit)",
@@ -2001,6 +2250,7 @@
     },
     {
         "name": "tesla",
+        "SI": "T",
         "surfaces": ["tesla"],
         "entity": "magnetic field",
         "URI": "https://en.wikipedia.org/wiki/Tesla_(unit)",
@@ -2009,6 +2259,7 @@
     },
     {
         "name": "gauss",
+        "SI": "G",
         "surfaces": ["gauss"],
         "entity": "magnetic field",
         "URI": "https://en.wikipedia.org/wiki/Gauss_(unit)",
@@ -2017,6 +2268,7 @@
     },
     {
         "name": "becquerel",
+        "SI": "Bq",
         "surfaces": ["becquerel"],
         "entity": "radioactivity",
         "URI": "https://en.wikipedia.org/wiki/Becquerel",
@@ -2025,6 +2277,7 @@
     },
     {
         "name": "millibecquerel",
+        "SI": "mBq",
         "surfaces": ["millibecquerel"],
         "entity": "radioactivity",
         "URI": "https://en.wikipedia.org/wiki/Becquerel",
@@ -2033,6 +2286,7 @@
     },
     {
         "name": "kilobecquerel",
+        "SI": "kBq",
         "surfaces": ["kilobecquerel"],
         "entity": "radioactivity",
         "URI": "https://en.wikipedia.org/wiki/Becquerel",
@@ -2041,6 +2295,7 @@
     },
     {
         "name": "megabecquerel",
+        "SI": "MBq",
         "surfaces": ["megabecquerel"],
         "entity": "radioactivity",
         "URI": "https://en.wikipedia.org/wiki/Becquerel",
@@ -2049,6 +2304,7 @@
     },
     {
         "name": "gigabecquerel",
+        "SI": "GBq",
         "surfaces": ["gigabecquerel"],
         "entity": "radioactivity",
         "URI": "https://en.wikipedia.org/wiki/Becquerel",
@@ -2057,6 +2313,7 @@
     },
     {
         "name": "curie",
+        "SI": "Ci",
         "surfaces": ["curie"],
         "entity": "radioactivity",
         "URI": "https://en.wikipedia.org/wiki/Curie",
@@ -2065,6 +2322,7 @@
     },
     {
         "name": "rutherford",
+        "SI": "Rd",
         "surfaces": ["rutherford"],
         "entity": "radioactivity",
         "URI": "https://en.wikipedia.org/wiki/Rutherford_(unit)",
@@ -2073,6 +2331,7 @@
     },
     {
         "name": "roentgen",
+        "SI": "R",
         "surfaces": ["roentgen", "röntgen"],
         "entity": "radiation exposure",
         "URI": "https://en.wikipedia.org/wiki/Roentgen_(unit)",
@@ -2081,6 +2340,7 @@
     },
     {
         "name": "rad",
+        "SI": "rad",
         "surfaces": ["rad"],
         "entity": "radiation absorbed dose",
         "URI": "https://en.wikipedia.org/wiki/Rad_(unit)",
@@ -2089,6 +2349,7 @@
     },
     {
         "name": "sievert",
+        "SI": "Sv",
         "surfaces": ["sievert"],
         "entity": "radiation absorbed dose",
         "URI": "https://en.wikipedia.org/wiki/Sievert",
@@ -2097,6 +2358,7 @@
     },
     {
         "name": "gray",
+        "SI": "Gy",
         "surfaces": ["gray"],
         "entity": "radiation absorbed dose",
         "URI": "https://en.wikipedia.org/wiki/Gray_(unit)",
@@ -2105,6 +2367,7 @@
     },
     {
         "name": "kilogray",
+        "SI": "kGy",
         "surfaces": ["kilogray"],
         "entity": "radiation absorbed dose",
         "URI": "https://en.wikipedia.org/wiki/Gray_(unit)",
@@ -2113,6 +2376,7 @@
     },
     {
         "name": "milligray",
+        "SI": "mGy",
         "surfaces": ["milligray"],
         "entity": "radiation absorbed dose",
         "URI": "https://en.wikipedia.org/wiki/Gray_(unit)",
@@ -2121,6 +2385,7 @@
     },
     {
         "name": "pixel",
+        "SI": "px",
         "surfaces": ["pixel", "dots", "pel", "picture element"],
         "entity": "typographical element",
         "URI": "https://en.wikipedia.org/wiki/Pixel",
@@ -2129,6 +2394,7 @@
     },
     {
         "name": "megapixel",
+        "SI": "MP",
         "surfaces": ["megapixel"],
         "entity": "typographical element",
         "URI": "https://en.wikipedia.org/wiki/Pixel#Megapixel",
@@ -2137,6 +2403,7 @@
     },
     {
         "name": "board-foot",
+        "SI": "FBM",
         "surfaces": ["board-foot", "board foot"],
         "entity": "volume (lumber)",
         "URI": "https://en.wikipedia.org/wiki/Board_foot",
@@ -2145,6 +2412,7 @@
     },
     {
         "name": "katal",
+        "SI": "kat",
         "surfaces": ["katal"],
         "entity": "catalytic activity",
         "URI": "https://en.wikipedia.org/wiki/Katal",
@@ -2153,6 +2421,7 @@
     },
     {
         "name": "gram per cubic centimetre",
+        "SI": "g/cm**3",
         "surfaces": ["gram per cubic centimetre", "gram per cubic centimeter"],
         "entity": "density",
         "URI": "https://en.wikipedia.org/wiki/Gram_per_cubic_centimetre",
@@ -2161,6 +2430,7 @@
     },
     {
         "name": "kilogram per cubic metre",
+        "SI": "kg/m**3",
         "surfaces": ["kilogram per cubic metre", "kilogram per cubic meter"],
         "entity": "density",
         "URI": "https://en.wikipedia.org/wiki/Kilogram_per_cubic_metre",
@@ -2169,6 +2439,7 @@
     },
     {
         "name": "gram per litre",
+        "SI": "g/L",
         "surfaces": ["gram per litre", "gram per liter"],
         "entity": "concentration",
         "URI": "https://en.wikipedia.org/wiki/Gram_per_litre",
@@ -2177,6 +2448,7 @@
     },
     {
         "name": "cubic metre per second",
+        "SI": "m**3/s",
         "surfaces": ["cubic metre per second", "cubic meter per second", "cumec"],
         "entity": "volumetric flow",
         "URI": "https://en.wikipedia.org/wiki/Cubic_metre_per_second",
@@ -2185,6 +2457,7 @@
     },
     {
         "name": "cubic foot per second",
+        "SI": "ft**3/s",
         "surfaces": ["cubic foot per second"],
         "entity": "volumetric flow",
         "URI": "https://en.wikipedia.org/wiki/Cubic_foot#Cubic_foot_per_minute",
@@ -2193,6 +2466,7 @@
     },
     {
         "name": "standard cubic centimetre per minute",
+        "SI": "SCCM",
         "surfaces": ["standard cubic centimetre per minute"],
         "entity": "volumetric flow",
         "URI": "https://en.wikipedia.org/wiki/SCCM_(flow_unit)",
@@ -2201,6 +2475,7 @@
     },
     {
         "name": "standard cubic feet per minute",
+        "SI": "SCFM",
         "surfaces": ["standard cubic feet per minute"],
         "entity": "volumetric flow",
         "URI": "https://en.wikipedia.org/wiki/Standard_cubic_feet_per_minute",
@@ -2209,6 +2484,7 @@
     },
     {
         "name": "standard litre per minute",
+        "SI": "SLM",
         "surfaces": ["standard litre per minute"],
         "entity": "volumetric flow",
         "URI": "https://en.wikipedia.org/wiki/Standard_litre_per_minute",
@@ -2217,6 +2493,7 @@
     },
     {
         "name": "pound per hour",
+        "SI": "lb/h",
         "surfaces": ["pound per hour"],
         "entity": "mass flow",
         "URI": "https://en.wikipedia.org/wiki/Pound_per_hour",
@@ -2225,6 +2502,7 @@
     },
     {
         "name": "bit per second",
+        "SI": "bps",
         "surfaces": ["bit per second", "baud"],
         "entity": "data transfer rate",
         "URI": "https://en.wikipedia.org/wiki/Bit_rate",
@@ -2233,6 +2511,7 @@
     },
     {
         "name": "kilobit per second",
+        "SI": "kbps",
         "surfaces": ["kilobit per second"],
         "entity": "data transfer rate",
         "URI": "https://en.wikipedia.org/wiki/Bit_rate",
@@ -2241,6 +2520,7 @@
     },
     {
         "name": "megabit per second",
+        "SI": "Mbps",
         "surfaces": ["megabit per second"],
         "entity": "data transfer rate",
         "URI": "https://en.wikipedia.org/wiki/Bit_rate",
@@ -2249,6 +2529,7 @@
     },
     {
         "name": "gigabit per second",
+        "SI": "Gbps",
         "surfaces": ["gigabit per second"],
         "entity": "data transfer rate",
         "URI": "https://en.wikipedia.org/wiki/Bit_rate",
@@ -2257,6 +2538,7 @@
     },
     {
         "name": "darcy",
+        "SI": "d",
         "surfaces": ["darcy", "darcy unit"],
         "entity": "permeability",
         "URI": "https://en.wikipedia.org/wiki/Darcy_(unit)",
@@ -2265,6 +2547,7 @@
     },
     {
         "name": "langley",
+        "SI": "Ly",
         "surfaces": ["langley"],
         "entity": "irradiance",
         "URI": "https://en.wikipedia.org/wiki/Langley_(unit)",
@@ -2273,6 +2556,7 @@
     },
     {
         "name": "denier",
+        "SI": "den",
         "surfaces": ["denier"],
         "entity": "linear mass density",
         "URI": "https://en.wikipedia.org/wiki/Units_of_textile_measurement",
@@ -2281,6 +2565,7 @@
     },
     {
         "name": "tex",
+        "SI": "tex",
         "surfaces": ["tex"],
         "entity": "linear mass density",
         "URI": "https://en.wikipedia.org/wiki/Units_of_textile_measurement",
@@ -2289,6 +2574,7 @@
     },
     {
         "name": "decitex",
+        "SI": "dtex",
         "surfaces": ["decitex"],
         "entity": "linear mass density",
         "URI": "https://en.wikipedia.org/wiki/Units_of_textile_measurement",
@@ -2297,6 +2583,7 @@
     },
     {
         "name": "jansky",
+        "SI": "Jy",
         "surfaces": ["jansky"],
         "entity": "flux density",
         "URI": "https://en.wikipedia.org/wiki/Jansky",
@@ -2305,6 +2592,7 @@
     },
     {
         "name": "millijansky",
+        "SI": "mJy",
         "surfaces": ["millijansky", "milli flux unit", "millijanskys"],
         "entity": "flux density",
         "URI": "https://en.wikipedia.org/wiki/Jansky",
